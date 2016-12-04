@@ -1,5 +1,9 @@
 # fcc-file-metadata
 [freecodecamp](https://www.freecodecamp.com/challenges/file-metadata-microservice) filesize upload service. using nodejs with express and multer packages.
+
+## demo
+visit [https://lee182-fcc-file-metadata.herokuapp.com/](https://lee182-fcc-file-metadata.herokuapp.com/)
+
 ## description
 * AJAX fileupload on frontend
 * multer expressjs on backend

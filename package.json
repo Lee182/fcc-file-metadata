@@ -17,7 +17,7 @@
     "start-dev": "npm-run-all --parallel watch-pug watch-css watch-browserify nstart"
   },
   "author": "Jonathan T L Lee",
-  "repository": "https://github.com/Lee182/fcc-file-microservice.git"
+  "repository": "https://github.com/Lee182/fcc-file-microservice.git",
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",

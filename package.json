@@ -1,6 +1,6 @@
 {
   "name": "file-metadata-express-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple microservice returning a files size",
   "main": "server.js",
   "scripts": {

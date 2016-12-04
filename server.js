@@ -1,14 +1,7 @@
 const express = require('express')
 const app = express()
 const multer = require('multer')
-function human_filesize(bytes) {
-  var i = Math.floor(Math.log(bytes) / Math.log(1024));
-  return (bytes / Math.pow(1024, i)).toFixed(2) * 1 + ' ' + ['B',
-  'kB',
-  'MB',
-  'GB',
-  'TB'][i]
-}
+const human_filesiz = require('./human_filesize.js')
 const fs = require('fs')
 const oneMB = 1000000
 var port = process.env.PORT || 3000

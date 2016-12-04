@@ -12,7 +12,7 @@ $form.addEventListener('submit', function(e){
   console.log(file)
   if (typeof file !== 'object') return false
 
-  var req = fileupload.upload({
+  var req = fileupload({
     url: '/uploadfile',
     file: file,
     cb: function(res) {
